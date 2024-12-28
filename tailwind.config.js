@@ -13,6 +13,13 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                lora: ['Lora', 'serif'],
+                playfair: ['Playfair Display', 'serif'],
+            },
+
+            colors: {
+                "blue-navy": "#000925",
+                
             },
         },
     },
