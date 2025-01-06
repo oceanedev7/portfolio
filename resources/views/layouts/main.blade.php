@@ -44,7 +44,7 @@
                     <div class="w-6 flex justify-center">
                         <i class="fa-solid fa-phone"></i>
                     </div>
-                    <a href="#"> Contact </a>
+                    <a href="{{route ('contact')}}"> Contact </a>
                 </div>
             </div>
             
@@ -53,7 +53,7 @@
         </div>
 
 
-        <div>
+        <div class="w-3/4">
             @yield('main') 
         </div>
     </div>
