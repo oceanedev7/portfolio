@@ -17,7 +17,7 @@
                     <input type="email" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" placeholder="Adresse e-mail">
                     <textarea rows="4" class="resize-none border-2 border-b-2 focus:ring-0 focus:border-white bg-transparent placeholder-white transition-all duration-300 ease-in-out" placeholder="Message"></textarea>
         
-                    <button class="bg-white text-blue-navy uppercase font-bold py-2 px-4 rounded-md transition-all duration-300 ease-in-out">Envoyer</button>
+                    <button class="bg-white hover:bg-blue-grey hover:text-white text-blue-navy uppercase font-bold py-2 px-4 rounded-md transition-all duration-300 ease-in-out">Envoyer</button>
                 </form>
         
                 <div class="flex flex-col justify-center text-lg text-white space-y-6">

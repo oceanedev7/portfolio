@@ -19,7 +19,7 @@ export default {
 
             colors: {
                 "blue-navy": "#000925",
-                
+             "blue-grey": "#5166a3",
             },
         },
     },
