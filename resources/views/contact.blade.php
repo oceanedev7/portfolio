@@ -11,12 +11,19 @@
 
             <div class="w-full max-w-4xl flex flex-col md:flex-row bg-blue-navy shadow-lg p-8 space-y-8 md:space-y-0 md:space-x-20">
                 
-                <form action="#" method="post" class="flex flex-col w-full max-w-md space-y-4">
-                    <input type="text" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" placeholder="Prénom">
-                    <input type="text" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" placeholder="Nom">
-                    <input type="email" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" placeholder="Adresse e-mail">
-                    <textarea rows="4" class="resize-none border-2 border-b-2 focus:ring-0 focus:border-white bg-transparent placeholder-white transition-all duration-300 ease-in-out" placeholder="Message"></textarea>
+                <form action="{{ route('contact-request') }}" method="post" class="flex flex-col w-full max-w-md space-y-4 text-white">
+                    @csrf 
+                    <input type="text" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" name="prenom" placeholder="Prénom" required>
+                    <input type="text" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" name="nom" placeholder="Nom" required>
+                    <input type="email" class="border-0 border-b-2 py-2 bg-transparent focus:ring-0 focus:border-white placeholder-white transition-all duration-300 ease-in-out" name="email" placeholder="Adresse e-mail" required>
+                    <textarea rows="4" class="resize-none border-2 border-b-2 focus:ring-0 focus:border-white bg-transparent placeholder-white transition-all duration-300 ease-in-out" name="message" placeholder="Message" required></textarea>
         
+
+                    @if(session('success'))
+    <div class="alert alert-success text-white font-bold text-center">
+        {{ session('success') }}
+    </div>
+@endif 
                     <button class="bg-white hover:bg-blue-grey hover:text-white text-blue-navy uppercase font-bold py-2 px-4 rounded-md transition-all duration-300 ease-in-out">Envoyer</button>
                 </form>
         
