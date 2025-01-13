@@ -11,4 +11,8 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('/monparcours', function () {
+    return view('career');
+})->name('parcours');
+
 Route::post('/contactrequest', [ContactController::class, 'create'])->name('contact-request');

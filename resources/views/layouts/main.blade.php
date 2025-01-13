@@ -30,7 +30,7 @@
                     <div class="w-6 flex justify-center">
                         <i class="fa-solid fa-graduation-cap"></i>
                     </div>
-                    <a href="#"> Mon parcours </a>
+                    <a href="{{route ('parcours')}}"> Mon parcours </a>
                 </div>
             
                 <div class="flex flex-row items-center space-x-4 hover:text-gray-200">

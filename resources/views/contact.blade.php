@@ -5,7 +5,7 @@
 <div class="flex justify-center items-center w-full h-screen">
     <div class="relative w-[800px] h-[500px] bg-blue-navy m-8">
 
-        <div class="text-white uppercase font-bold text-center text-4xl mt-10">Contactez-moi !</div>
+        <h1 class="text-white uppercase font-bold text-center text-4xl mt-10">Contactez-moi !</h1>
 
         <div class="flex items-center justify-center">
 
