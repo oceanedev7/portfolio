@@ -7,11 +7,13 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
     <title>Portfolio - Océane PY</title>
 </head>
 <body>
     
-    <div class="flex flex-row w-full">
+    <div class="flex flex-row w-full ">
         <div class="h-screen bg-blue-navy w-1/4 flex flex-col items-center justify-center space-y-12"> 
             <div> 
                 <img class="rounded-full w-40 h-40" src="{{ Storage::url('images/profil.jpg') }}" alt="Photo de profil"> 
@@ -61,6 +63,12 @@
 
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+     </script>
 </body>
 </html>
