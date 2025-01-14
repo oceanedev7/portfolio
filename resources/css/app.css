@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 
+    .scroll-container {
+        overflow-y: scroll;
+        scrollbar-width: none; 
+        -ms-overflow-style: none; 
+    }
+
+    .scroll-container::-webkit-scrollbar {
+        display: none; 
+    }

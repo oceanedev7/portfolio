@@ -47,6 +47,10 @@
                         <a href="https://www.linkedin.com/in/océane-py-3b3152196" target="_blank" rel="noopener noreferrer">
                             <i class="fa-brands fa-linkedin text-2xl"></i>
                         </a>
+
+                        <a href="https://github.com/oceanedev7" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-square-github text-2xl"></i>
+                        </a>
                     </div>
                 </div>
         
