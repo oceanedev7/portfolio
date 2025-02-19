@@ -39,7 +39,7 @@
                     <div class="w-6 flex justify-center">
                         <i class="fa-solid fa-file-code"></i>
                     </div>
-                    <a href="#"> Mes projets web </a>
+                    <a href="{{route ('projets')}}"> Mes projets web </a>
                 </div>
             
                 <div class="flex flex-row items-center space-x-4 hover:text-gray-200">
