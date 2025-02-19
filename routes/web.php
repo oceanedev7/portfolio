@@ -15,4 +15,8 @@ Route::get('/monparcours', function () {
     return view('career');
 })->name('parcours');
 
+Route::get('/mesprojets', function () {
+    return view('projects');
+})->name('projets');
+
 Route::post('/contactrequest', [ContactController::class, 'create'])->name('contact-request');

@@ -37,6 +37,18 @@
 </div>
 
 <div class="flex flex-col mb-6">
+    <li class="font-bold text-lg mb-4 text-blue-navy"> Community Manager/Conseillère en voyages - AVS Voyages (Février - Mai 2025) </li>
+    <div class="flex flex-col"> 
+    <div>-Mettre en oeuvre les actions de communication internes et externes</div>
+    <div>-Élaborer des supports et outils de communication</div>
+    <div>-Gérer les relations publiques/presse</div>
+    <div>-Organiser des évènements à destination des clients ou des collaborateurs</div>
+    <div>-Conseiller et orienter les clients dans le choix de leurs voyages</div>
+    <div>-Élaborer des devis personnalisés </div>
+    </div>
+    </div>
+
+<div class="flex flex-col mb-6">
 <li class="font-bold text-lg mb-4 text-blue-navy"> Développeuse Web - RESEAU L.I.L.A.S (Août - Octobre 2024) </li>
 <div class="flex flex-col"> 
 <div>-HTML, Tailwind CSS, Javascript, MySQL, Laravel</div>

@@ -1,4 +1,8 @@
 import './bootstrap';
+import 'flowbite';
+
+
+
 
 const texts = ["Développement web", "Marketing/communication"];
 let currentTextIndex = 0;
