@@ -13,10 +13,10 @@
 </head>
 <body>
     
-    <div class="flex flex-row w-full ">
+    <div class="flex flex-row w-full">
         <div class="h-screen bg-blue-navy w-1/4 flex flex-col items-center justify-center space-y-12"> 
             <div> 
-                <img class="rounded-full w-40 h-40" src="{{ Storage::url('images/profil.jpg') }}" alt="Photo de profil"> 
+                <img class="w-40 h-40 bg-white rounded-full" src="{{ Storage::url('images/profil.jpg') }}" alt="Photo de profil"> 
             </div>
 
 
