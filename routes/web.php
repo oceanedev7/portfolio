@@ -19,4 +19,12 @@ Route::get('/mesprojets', function () {
     return view('projects');
 })->name('projets');
 
+Route::get('/reseauxsociaux', function () {
+    return view('socialmedias');
+})->name('socialmedias');
+
+Route::get('/developpementweb', function () {
+    return view('webdevelopment');
+})->name('webdevelopment');
+
 Route::post('/contactrequest', [ContactController::class, 'create'])->name('contact-request');
