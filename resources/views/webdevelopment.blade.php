@@ -4,8 +4,7 @@
 
  <div class="w-full h-screen p-8 flex items-center justify-center">
 
-<!-- Carousel videos -->
-<div id="animation-carousel" class="relative min-h-[24rem] w-full max-w-4xl" data-carousel="static">
+<div id="animation-carousel" class="relative min-h-[24rem] w-full max-w-4xl border-4 border-blue-navy" data-carousel="static">
     <!-- Carousel wrapper -->
     <div class="relative overflow-hidden h-[30rem]">
          <!-- Item 1 -->
@@ -16,19 +15,27 @@
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="{{ Storage::url('images/wib7.jpeg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <video class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" autoplay muted>
+                <source src="{{ Storage::url('videos/todolist.mp4') }}" type="video/mp4">
+            </video>
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-200 ease-linear" data-carousel-item="active">
-            <img src="{{ Storage::url('images/wib8.jpeg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
+            <video class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" autoplay muted>
+                <source src="{{ Storage::url('videos/calculatrice.mp4') }}" type="video/mp4">
+            </video>       
+         </div>
         <!-- Item 4 -->
         <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="{{ Storage::url('images/wib9.jpeg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <video class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" autoplay muted>
+                <source src="{{ Storage::url('videos/reseaulilas.mp4') }}" type="video/mp4">
+            </video>          
         </div>
         <!-- Item 5 -->
         <div class="hidden duration-200 ease-linear" data-carousel-item>
-            <img src="{{ Storage::url('images/wib10.jpeg') }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <video class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" autoplay muted>
+                <source src="{{ Storage::url('videos/toutlahaut.mp4') }}" type="video/mp4">
+            </video>         
         </div>
     </div>
     <!-- Slider controls -->
